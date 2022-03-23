@@ -1,0 +1,7 @@
+note over selain:
+selain suorittaa tapahtumankäsittelijän ja lisää noten listaan,
+renderöi sen sivulle ja lähettää sen palvelimelle
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin->selain: JSON-kuittaus
